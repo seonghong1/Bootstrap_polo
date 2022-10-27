@@ -1,0 +1,383 @@
+* {
+    padding: 0;
+    margin: 0;
+
+    padding-bottom: 0;
+
+}
+
+a {
+
+    text-decoration: none !important;
+}
+
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+   
+}
+.cursor{
+    color: white;
+    background-color: transparent;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 9999;
+   
+}
+
+#navbarSupportedContent {
+    background-color: rgba(0, 0, 0, 0.);
+}
+
+.title {
+    font-family: 'Nanum Myeongjo', serif;
+}
+
+ul,
+li {
+    list-style: none;
+    padding-left: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+header.active {
+    background: rgba(0, 0, 0, 0.7);
+}
+
+header .container-lg>a {
+    width: 242.1px;
+    height: 18px;
+    display: block;
+    padding: 0;
+    background: url(https://cdn-fsly.yottaa.net/62b4643a4f1bbf4e83e90207/www.ralphlauren.co.kr/v~4b.15/on/demandware.static/Sites-RalphLauren_KR-Site/-/ko_KR/v1666297521701/images/logo-white.svg?yocs=1u_1x_1y_);
+}
+
+/*visual*/
+.visual {
+    background-color: rgba(0, 0, 0, 0.9);
+    position: relative;
+}
+
+video {
+    width: 100%;
+    height: 100%;
+
+}
+
+.visual .text_box {
+    position: absolute;
+    bottom: 60px;
+    left: 0;
+    right: 0;
+}
+
+.visual .bg {
+    background-color: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.visual .text_box .inner {
+    text-align: center;
+}
+
+.visual .text_box p {
+    color: white;
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+
+.visual .text_box a {}
+
+.visual .text_box h2 {
+    font-size: 80px;
+    margin-bottom: 100px;
+    color: white;
+}
+
+.visual .text_box a {
+    font-size: 24px;
+    line-height: 1.2;
+    border-bottom: 1px solid white;
+}
+
+
+
+.v_m {
+    display: none;
+}
+
+header a {
+    font-family: 'Nanum Myeongjo', serif;
+
+}
+
+.menu_list {
+    font-size: 14px !important;
+}
+
+.section1 {
+    background-color: rgba(0, 0, 0, 0.9);
+    padding: 100px 0;
+}
+
+.section1 .sec1_img {
+    height: 500px;
+    display: block;
+    background: url(../img/polo.jpg) center center / cover;
+}
+
+.navbar-toggler {
+    border: none !important;
+    color: white !important;
+}
+
+button:focus:not(:focus-visible) {
+    box-shadow: none;
+}
+
+.navbar-toggler-icon {
+    background-image: none !important;
+}
+
+.navbar-toggler-icon i {
+    font-size: 30px;
+}
+
+/*section2*/
+.section2 {
+    width: 100%;
+}
+
+.section2 .inner {
+    position: relative;
+}
+
+.section2 .inner img {
+    width: 100%;
+}
+
+.section2 .inner>button {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+
+}
+
+
+.black {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 1;
+}
+
+.section3 {
+    background-color: rgba(0, 0, 0, 0.9);
+    padding: 80px 0;
+}
+
+.section3 .bg {
+    height: 500px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.section3 .bg:not(:nth-of-type(3)):hover .black {
+    top: 70%;
+    transition: all 0.5s;
+}
+
+.section3 .bg:nth-of-type(3):hover .black {
+    bottom: 70%;
+    transition: all 0.5s;
+}
+
+.section3 .bg3 {
+    background: url(../img/sec3_5.jpg) center center / cover;
+}
+
+.section3 .container .bg2 {
+    background: url(../img/sec3_4.jpg) center center / cover;
+    justify-content: flex-start;
+}
+
+.section3 .bg1 {
+    background: url(../img/sec3_6.jpg) center center / cover;
+}
+
+.section3 .text_item,
+.section3 a {
+    color: white;
+}
+
+.section3 .text_item {
+    position: relative;
+    z-index: 2;
+    ;
+    display: none;
+}
+
+.section3 .bg:hover .text_item {
+    display: block;
+    transition-delay: 0.5s;
+}
+
+
+
+
+.section4 {
+    background: url(../img/sec4_bg.jpg) left center / cover;
+}
+
+.section4 .inner {
+    height: 100%;
+    text-align: center;
+    color: white;
+}
+
+.section4 .inner h2 {
+    font-size: 80px;
+    font-weight: 700;
+}
+
+.section4 .inner p {
+    font-size: 20px;
+}
+
+.section4 .inner a {
+    display: inline-block;
+    width: 200px;
+    line-height: 60px;
+    border: 1px solid white;
+    font-size: 20px;
+}
+
+.section5 {}
+
+.section5 .top_wrap {
+    display: flex;
+    width: 95%;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section5 h2 {}
+
+.section5 .top_wrap .sec5_nav {
+    height: 100%;
+    display: flex;
+    align-items: center;
+
+
+}
+
+.section5 .sec5_nav ul {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.section5 .sec5_nav li {}
+
+.section5 .sec5_nav select {
+    border: 1px solid #ccc;
+    background: transparent;
+    width: 130px;
+    height: 35px;
+}
+
+.section5 .sec5_nav option {}
+
+.section5 .sec5_nav i {
+    cursor: pointer;
+}
+
+.section5 .card-title {
+    font-size: 11px;
+}
+
+.section5 .card {
+    width: 100% !important;
+}
+
+
+footer {
+    padding: 60px 0 20px 0;
+    border-top: 1px solid #ccc;
+}
+
+footer h3,
+footer a,
+footer {
+    font-size: 13px;
+}
+
+footer i {
+    font-size: 18px;
+}
+
+footer span {
+    font-weight: 600;
+}
+
+.f_item {
+    border-right: 1px solid #ccc;
+}
+
+.f_item:first-of-type {
+    border-left: 1px solid #ccc;
+}
+
+footer a {
+    color: black;
+}
+
+footer a:hover {
+    color: black;
+}
+
+.sns_inner a {
+    width: 18px;
+    height: 18px;
+    display: block;
+}
+
+.sns_inner li:nth-of-type(1):hover i {
+    background-color: blue;
+    color: white;
+}
+
+.sns_inner li:nth-of-type(2):hover i {
+    background-color: pink;
+    color: white;
+}
+
+.sns_inner li:nth-of-type(3):hover i {
+    background-color: red;
+    color: white;
+}
+
+.sns_inner li:nth-of-type(4):hover i {
+    background-color: skyblue;
+    color: white;
+}
+
+.sns_inner li:nth-of-type(5):hover i {
+    background-color: greenyellow;
+    color: white;
+}
